@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_58872_needit_needit' with the following values:
+State = Open
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>e06e00e82f1e10100f73fd1df699b636</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_e06e00e82f1e10100f73fd1df699b636</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="Needit Module Test ">a73e8ca82f1e10100f73fd1df699b618</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=e06e00e82f1e10100f73fd1df699b636"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e06e00e82f1e10100f73fd1df699b636</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>217e40e82f1e10100f73fd1df699b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e06e00e82f1e10100f73fd1df699b636</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>6d7e40e82f1e10100f73fd1df699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e06e00e82f1e10100f73fd1df699b636</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>e17e40e82f1e10100f73fd1df699b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>e06e00e82f1e10100f73fd1df699b636</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>e17e40e82f1e10100f73fd1df699b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <value>state=1^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>94851a18dbe78c148aea21c405961959</instance_id>
+        <instance_name>dev102711</instance_name>
+        <name>sys_atf_step_e06e00e82f1e10100f73fd1df699b636</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Insert a record into 'x_58872_needit_needit' with the following values:
+State = Open
+Confirm the record was successfully inserted</description><display_name>Record Insert</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-25 17:51:01</sys_created_on><sys_id>e06e00e82f1e10100f73fd1df699b636</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record Insert</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_e06e00e82f1e10100f73fd1df699b636</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-25 17:51:01</sys_updated_on><table>x_58872_needit_needit</table><test display_value="Needit Module Test ">a73e8ca82f1e10100f73fd1df699b618</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=e06e00e82f1e10100f73fd1df699b636"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e06e00e82f1e10100f73fd1df699b636</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-25 17:51:01</sys_created_on><sys_id>217e40e82f1e10100f73fd1df699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-25 17:51:01</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="">90144b535320220002c6435723dc3488</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e06e00e82f1e10100f73fd1df699b636</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-25 17:51:01</sys_created_on><sys_id>6d7e40e82f1e10100f73fd1df699b61e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-25 17:51:01</sys_updated_on><value>1</value><variable display_value="">e6e3c7535320220002c6435723dc3496</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e06e00e82f1e10100f73fd1df699b636</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-25 17:51:01</sys_created_on><sys_id>e17e40e82f1e10100f73fd1df699b61e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-25 17:51:01</sys_updated_on><value>record_successfully_inserted</value><variable display_value="">9024a37f671003007ba405225685efe5</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>e06e00e82f1e10100f73fd1df699b636</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-25 17:51:01</sys_created_on><sys_id>e17e40e82f1e10100f73fd1df699b61f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-25 17:51:01</sys_updated_on><value>state=1^EQ</value><variable display_value="">dd54cf535320220002c6435723dc34fd</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-1497555558</payload_hash>
+        <record_name>Record Insert</record_name>
+        <reverted_from/>
+        <source>43f5c8a02f1e10100f73fd1df699b68f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:01</sys_created_on>
+        <sys_id>a97e40e82f1e10100f73fd1df699b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17387197f350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:01</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>e17e40e8271e101048c7b1770f412b21</update_guid>
+        <update_guid_history>e17e40e8271e101048c7b1770f412b21:-1497555558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:51:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>703c40178fa74fb690c7c18dfb116a61</sys_id>
+        <sys_metadata>e06e00e82f1e10100f73fd1df699b636</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_e06e00e82f1e10100f73fd1df699b636</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_e06e00e82f1e10100f73fd1df699b636">a97e40e82f1e10100f73fd1df699b621</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:51:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

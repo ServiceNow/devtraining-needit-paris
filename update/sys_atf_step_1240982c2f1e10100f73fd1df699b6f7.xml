@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Apply the following filter to the 'NeedIt' list:
+State in (Pending, Open, Work in Progress, Closed Complete, Closed Incomplete, Closed Ski)</description>
+        <display_name>Apply Filter to List</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>22</order>
+        <snapshot/>
+        <step_config display_value="Apply Filter to List">a69843f2531332007e7829cac2dc34d7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>1240982c2f1e10100f73fd1df699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Apply Filter to List</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_1240982c2f1e10100f73fd1df699b6f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="Needit Module Test (All,Open)">a73e8ca82f1e10100f73fd1df699b618</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=1240982c2f1e10100f73fd1df699b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>0350542c2f1e10100f73fd1df699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value>list</value>
+        <variable display_value="">2c4b1ce173533300099f98b8caf6a7f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>07509c2c2f1e10100f73fd1df699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">719b8ff2531332007e7829cac2dc34da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>0f50542c2f1e10100f73fd1df699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value/>
+        <variable display_value="">0568fd3573213300440211d8faf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>43509c2c2f1e10100f73fd1df699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">856caf14532332007e7829cac2dc34eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>8f509c2c2f1e10100f73fd1df699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value>task_ci.task</value>
+        <variable display_value="">94a947f2531332007e7829cac2dc34b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>1240982c2f1e10100f73fd1df699b6f7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-25 17:59:20</sys_created_on>
+        <sys_id>c350542c2f1e10100f73fd1df699b6fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-25 17:59:20</sys_updated_on>
+        <value>stateIN-5,1,2,3,4,7^EQ</value>
+        <variable display_value="">31e9c7f2531332007e7829cac2dc3445</variable>
+    </sys_variable_value>
+</record_update>
