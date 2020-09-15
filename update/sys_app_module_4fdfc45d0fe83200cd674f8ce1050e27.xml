@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter/>
         <hint>Create a new record in the NeedIt table</hint>
@@ -18,7 +17,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_58872_needit.needit_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-25 01:01:22</sys_created_on>
