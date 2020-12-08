@@ -2,26 +2,24 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
-        <condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
-        <description>Default access control on x_58872_needit_needit</description>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_58872_needit_needit, for users with role x_58872_needit.needit_user, and if the ACL script returns true.</description>
         <name>x_58872_needit_needit</name>
         <operation display_value="read">read</operation>
-        <script/>
+        <script><![CDATA[current.isNewRecord();]]></script>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-24 22:46:34</sys_created_on>
-        <sys_id>0a427f010fe83200cd674f8ce1050e58</sys_id>
+        <sys_created_on>2020-12-08 10:14:01</sys_created_on>
+        <sys_id>ccdd7a442f41e010a6875e072799b676</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_58872_needit_needit</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_security_acl_0a427f010fe83200cd674f8ce1050e58</sys_update_name>
+        <sys_update_name>sys_security_acl_ccdd7a442f41e010a6875e072799b676</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-08 10:08:59</sys_updated_on>
+        <sys_updated_on>2020-12-08 10:14:25</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
