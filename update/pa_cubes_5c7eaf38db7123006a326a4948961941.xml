@@ -9,7 +9,9 @@
         <facts_table_pktable/>
         <facts_table_pkview/>
         <frequency>20</frequency>
+        <max_record_fetch_count/>
         <name>NeedIt.ActiveWeekly</name>
+        <override_record_collection>false</override_record_collection>
         <report_source/>
         <report_source_updated_at>2018-11-14 03:43:59</report_source_updated_at>
         <sys_class_name>pa_cubes</sys_class_name>
