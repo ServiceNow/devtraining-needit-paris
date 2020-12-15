@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Make Long Overdue NeedIt Tasks Closed Incomplete</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-04-19 03:54:27</run_start>
+        <run_time>1970-01-01 08:05:00</run_time>
+        <run_type>daily</run_type>
+        <script/>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 03:55:41</sys_created_on>
+        <sys_id>9b4e55d40f9af2000d030dbce1050edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Long Overdue NeedIt Tasks Closed Incomplete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_9b4e55d40f9af2000d030dbce1050edd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 03:55:41</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>186de1fddb1c53003353f22ebf9619c2</instance_id>
+        <instance_name>dev50201</instance_name>
+        <name>sysauto_script_9b4e55d40f9af2000d030dbce1050edd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Make Long Overdue NeedIt Tasks Closed Incomplete</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-04-19 03:54:27</run_start>
+        <run_time>1970-01-01 08:05:00</run_time>
+        <run_type>daily</run_type>
+        <script/>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 03:55:41</sys_created_on>
+        <sys_id>9b4e55d40f9af2000d030dbce1050edd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Long Overdue NeedIt Tasks Closed Incomplete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_9b4e55d40f9af2000d030dbce1050edd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 03:55:41</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>]]></payload>
+        <payload_hash>-1299768787</payload_hash>
+        <record_name>Make Long Overdue NeedIt Tasks Closed Incomplete</record_name>
+        <reverted_from/>
+        <source>7fa806a92f49a010a6875e072799b6d2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-12 22:11:45</sys_created_on>
+        <sys_id>b1b8c6a92f49a010a6875e072799b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176590282260000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-12 22:11:45</sys_updated_on>
+        <type>Scheduled Script Execution</type>
+        <update_guid>31b8c6a9c849a0101b8581a31a70cec0</update_guid>
+        <update_guid_history>31b8c6a9c849a0101b8581a31a70cec0:0,bf374a292c49a010cfc8d023bcff54bc:0,9a94a9a946c5a0104b0c0a4b20830241:0,9a4460216445a01061a8bf5086fc97f8:1485547080</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-15 15:14:12</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_script">sysauto_script</sys_db_object>
+        <sys_id>0cc4b1a5b57c447081929f6b551c4100</sys_id>
+        <sys_metadata>9b4e55d40f9af2000d030dbce1050edd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Make Long Overdue NeedIt Tasks Closed Incomplete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sysauto_script_9b4e55d40f9af2000d030dbce1050edd</sys_update_name>
+        <sys_update_version display_value="sysauto_script_9b4e55d40f9af2000d030dbce1050edd">b1b8c6a92f49a010a6875e072799b6c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-15 15:14:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
