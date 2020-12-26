@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>LDAP User Import</name>
+        <order>100</order>
+        <run_business_rules>true</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[//
+// The manager coming in from LDAP is the DN value for the manager.  
+// The line of code below will locate the manager that matches the
+// DN value and set it into the target record. To ignore the manager 
+// from LDAP, remove or comment out the line: ldapUtils.setManager(source, target);
+//
+// NOTE: The 'manager' field SHOULD NOT be mapped in the 'Field Maps' related list
+// if the manager is brought in through an LDAP import.  The 'ldapUtils' scripts
+// here and in the 'onComplete' Transform Map will map this value automatically.
+ldapUtils.setManager(source, target);
+
+// Set the source LDAP server into the target record
+target.ldap_server = source.sys_import_set.data_source.ldap_target.server;]]></script>
+        <source_table>ldap_import</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>tbhatt2</sys_created_by>
+        <sys_created_on>2020-12-24 19:35:19</sys_created_on>
+        <sys_id>5bf7535d2f1d2010a1cf57ab2799b6e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LDAP User Import</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_map_5bf7535d2f1d2010a1cf57ab2799b6e3</sys_update_name>
+        <sys_updated_by>tbhatt2</sys_updated_by>
+        <sys_updated_on>2020-12-24 19:35:19</sys_updated_on>
+        <target_table>sys_user</target_table>
+    </sys_transform_map>
+</record_update>
