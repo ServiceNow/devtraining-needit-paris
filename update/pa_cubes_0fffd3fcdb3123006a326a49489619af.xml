@@ -9,7 +9,9 @@
         <facts_table_pktable/>
         <facts_table_pkview/>
         <frequency>40</frequency>
+        <max_record_fetch_count/>
         <name>NeedIt.ThisMonth</name>
+        <override_record_collection>false</override_record_collection>
         <report_source/>
         <report_source_updated_at/>
         <sys_class_name>pa_cubes</sys_class_name>
