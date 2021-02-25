@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label=" NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="4" type="collection">
+        <element default="meido" label="Style type" max_length="40" name="style_type" reference="var__m_sys_ux_lib_component_attr_2f6ac0e6ed2f27c7b6863f9988b02e59" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_request_type" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>
