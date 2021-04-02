@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description>admin role for the NeedIt application</description>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_58872_needit.admin</name>
