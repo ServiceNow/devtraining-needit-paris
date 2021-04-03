@@ -48,7 +48,11 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-26 19:28:12</sys_created_on>
+<<<<<<< HEAD
         <sys_id>7476d50d2fd720100e575e072799b614</sys_id>
+=======
+        <sys_id>0f2434d71b7dc0108d03631abc4bcbc3</sys_id>
+>>>>>>> main
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Request type</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -56,7 +60,11 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_dictionary_x_58872_needit_needit_u_request_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
+<<<<<<< HEAD
         <sys_updated_on>2021-04-03 13:01:17</sys_updated_on>
+=======
+        <sys_updated_on>2019-12-23 16:56:34</sys_updated_on>
+>>>>>>> main
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
