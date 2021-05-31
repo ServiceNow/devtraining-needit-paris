@@ -39,6 +39,25 @@
             <dependent_value/>
             <element>u_request_type</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>IT Security</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-29 07:03:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aff38ce32f9070104026aa5df699b685</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-30 07:10:30</sys_updated_on>
+            <value>it security</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Facilities</label>
             <language>en</language>
@@ -78,19 +97,19 @@
             <element>u_request_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>IT Security</label>
+            <label>Other</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-05-29 07:03:47</sys_created_on>
+            <sys_created_on>2021-05-31 04:27:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aff38ce32f9070104026aa5df699b685</sys_id>
+            <sys_id>4753754c2fa8b0104026aa5df699b61b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-05-29 07:03:47</sys_updated_on>
-            <value>it security</value>
+            <sys_updated_on>2021-05-31 04:27:19</sys_updated_on>
+            <value>other</value>
         </sys_choice>
     </sys_choice>
 </record_update>
