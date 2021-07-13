@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <description>This event is fired for each overdue NeedIt Task record</description>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <fired_by>Scheduled Script Execution - Find Overdue NeedIt Tasks</fired_by>
+        <queue/>
+        <suffix>overdueNeedItTask</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 00:06:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>857c5fa50f8232000d030dbce1050e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_857c5fa50f8232000d030dbce1050e4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 00:06:55</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>60066371dbb317403353f22ebf96198c</instance_id>
+        <instance_name>dev69606</instance_name>
+        <name>sysevent_register_857c5fa50f8232000d030dbce1050e4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>This event is fired for each overdue NeedIt Task record</description>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <fired_by>Scheduled Script Execution - Find Overdue NeedIt Tasks</fired_by>
+        <queue/>
+        <suffix>overdueNeedItTask</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-11 00:06:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>857c5fa50f8232000d030dbce1050e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_857c5fa50f8232000d030dbce1050e4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-11 00:06:55</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+</record_update>]]></payload>
+        <payload_hash>1147075939</payload_hash>
+        <record_name>x_58872_needit.overdueNeedItTask</record_name>
+        <reverted_from/>
+        <source>b616112d070030105b90fc018c1ed01c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-10 21:39:16</sys_created_on>
+        <sys_id>b626152d070030105b90fc018c1ed0b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179583852f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-10 21:39:16</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>3626152de0003010bba2e35d7a5ac8b7</update_guid>
+        <update_guid_history>3626152de0003010bba2e35d7a5ac8b7:0,083fbc14a78c3010ca3dc11cc0096aa6:1694111180,cbafdff79d3320100de97a4f1a853e9d:-408871243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 20:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>069b25f647ea47e296ab76e9f3ffd901</sys_id>
+        <sys_metadata>857c5fa50f8232000d030dbce1050e4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">139f9bf7073320105b90fc018c1ed0f9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sysevent_register_857c5fa50f8232000d030dbce1050e4b</sys_update_name>
+        <sys_update_version display_value="sysevent_register_857c5fa50f8232000d030dbce1050e4b">b626152d070030105b90fc018c1ed0b7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 20:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
